@@ -1,0 +1,18 @@
+body, html, .row {
+	height: 100%;
+}
+
+.container, .center {
+    height: 100%;
+}
+
+.center {
+    display: table;
+    margin: auto;
+}
+
+.center .box-center {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
