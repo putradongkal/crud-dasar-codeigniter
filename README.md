@@ -1,6 +1,7 @@
 # crud-dasar-codeigniter
 crud dasar dengan codeigniter 3.1.4 dan bootstrap 3.3.6
 
+
 # Buat tabel database
 `CREATE TABLE IF NOT EXISTS 'mahasiswa' (`
   `'nim' varchar(12) NOT NULL,`
@@ -12,11 +13,14 @@ crud dasar dengan codeigniter 3.1.4 dan bootstrap 3.3.6
 `ALTER TABLE 'mahasiswa'`
  `ADD PRIMARY KEY ('nim');`
 
+
 # application/config/config.php
 `$config['base_url'] = 'http://localhost/crud-dasar';`
 
+
 # application/config/routes.php
 `$route['default_controller'] = 'home';`
+
 
 # application/config/database.php
 `$db['default'] = array(`
